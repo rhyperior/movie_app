@@ -4,7 +4,13 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     <h1>Whats up ?</h1>
+      <h1>Your Movie Feed !</h1>
+      <div className="form">
+        <label>Movie Name</label>
+        <input type="text" name="movieName" />
+        <label>Review</label>
+        <input type="text" name="review" />
+      </div>  
     </div>
   );
 }
